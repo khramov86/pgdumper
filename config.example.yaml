@@ -1,0 +1,21 @@
+db:
+  host: localhost
+  port: 5432
+  db: postgres
+  user: postgres
+  password: 
+backup:
+  path: /var/lib/postgresql/data/backups
+  db_list: [] # if empty, all databases will be backed up
+
+telegram:
+  chat_id: -1001674814041
+  bot_token: 565567567:AAEw2jgXv3Bk2Bj2Bj2Bj2Bj2Bj2Bj2B
+
+email:
+  host: smtp.gmail.com
+  port: 587
+  username: 9Y4b7@example.com
+  password:
+  to: 9Y4b7@example.com
+  from: 9Y4b7@example.com # необязательное поле
